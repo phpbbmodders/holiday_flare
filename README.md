@@ -26,4 +26,4 @@ Go to ACP -> `EXTENSIONS --> Holiday Flare --> Settings ->` set *Enable Santa Ha
 
 ## Support
 
-https://www.phpbb.com/community/viewtopic.php?f=456&t=2263616
+https://www.phpbb.com/community/viewtopic.php?f=456&t=2277491
