@@ -1,0 +1,31 @@
+#banner-xmas {
+	float: left;
+	height: 96px;
+	width: 96px;
+	margin: -159px 0 0 -36px;
+    position: relative;
+	z-index: 900;
+	background: transparent url(images/hohohat.png) 0 0 no-repeat;
+	display: block;
+}
+
+.rtl #banner-xmas {
+	float: right;
+	height: 96px;
+	width: 96px;
+	margin: -159px -36px 0 0;
+	position: relative;
+	z-index: 900;
+	background: transparent url(images/hohohat.png) 0 0 no-repeat;
+	display: block;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	#banner-xmas { display: none }
+}

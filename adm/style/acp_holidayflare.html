@@ -1,0 +1,31 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_ACP_HOLIDAYFLARE}</h1>
+
+<p>{L_ACP_HOLIDAYFLARE_EXPLAIN}</p>
+
+<form id="select_victim" method="post" action="{U_ACTION}">
+
+	<fieldset>
+		<legend>{L_ACP_HOLIDAYFLARE_SETTINGS}</legend>
+		<dl>
+			<dt><label for="enable_hohohatcorner">{L_ENABLE_HOHOHATCORNER}{L_COLON}</label><br /><span>{L_ENABLE_HOHOHATCORNER_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="enable_hohohatcorner" id="enable_hohohatcorner" value="1"<!-- IF S_ENABLE_HOHOHATCORNER --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="enable_hohohatcorner" value="0"<!-- IF not S_ENABLE_HOHOHATCORNER --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			</dd>
+		</dl>
+	</fieldset>
+
+	<fieldset>
+		<legend>{L_ACP_SUBMIT_CHANGES}</legend>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+		{S_FORM_TOKEN}
+	</fieldset>
+
+</form>
+
+<!-- INCLUDE overall_footer.html -->

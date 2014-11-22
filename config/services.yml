@@ -1,0 +1,8 @@
+services:
+    phpbbmodders.holidayflare.listener:
+        class: phpbbmodders\holidayflare\event\listener
+        arguments:
+            - @config
+            - @template
+        tags:
+            - { name: event.listener }
