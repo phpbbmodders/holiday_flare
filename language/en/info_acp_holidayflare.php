@@ -1,9 +1,10 @@
 <?php
 /**
  *
- * Holiday Flare extension
- *
- * @copyright (c) 2014 bonelifer & VSE
+ * @package Holiday Flare extension
+ * @author bonelifer (William Jacoby) bonelifer@phpbbmodders.net
+ * @author VSE (Matt Friedman)
+ * @copyright (c) 2014 phpbbmodders.net
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
