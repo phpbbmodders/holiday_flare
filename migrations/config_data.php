@@ -17,14 +17,24 @@ class config_data extends \phpbb\db\migration\migration
 	public function update_data()
 	{
 		return array(
-			array('config.add', array('enable_hohohatcorner', 0)),
+			/* XMAS Start */
+			array('config.add', array('enable_xmas', 0)),
+			/* XMAS Stop */
+			/* VALENTINE Start */
+			array('config.add', array('enable_valentine', 0)),
+			/* VALENTINE Stop */
 		);
 	}
 
 	public function revert_data()
 	{
 		return array(
-			array('config.remove', array('enable_hohohatcorner')),
+			/* XMAS Start */
+			array('config.remove', array('enable_xmas')),
+			/* XMAS Stop */
+			/* VALENTINE Start */
+			array('config.remove', array('enable_valentine')),
+			/* VALENTINE Stop */
 		);
 	}
 }

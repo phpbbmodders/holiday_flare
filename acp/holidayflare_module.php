@@ -55,15 +55,27 @@ class holidayflare_module
 			{
 				trigger_error($user->lang('FORM_INVALID') . adm_back_link($this->u_action), E_USER_WARNING);
 			}
-
-			$enable_hohohatcorner = $this->request->variable('enable_hohohatcorner', 0);
-			$this->config->set('enable_hohohatcorner', $enable_hohohatcorner);
+			/* XMAS Start */
+			$enable_xmas = $this->request->variable('enable_xmas', 0);
+			$this->config->set('enable_xmas', $enable_xmas);
+			/* XMAS Stop */
+			
+			/* Valentine Start */
+			$enable_valentine = $this->request->variable('enable_valentine', 0);
+			$this->config->set('enable_valentine', $enable_valentine);
+			/* Valentine Stop */
 
 			trigger_error($this->user->lang('CONFIG_UPDATED') . adm_back_link($this->u_action));
 		}
 
 		$this->template->assign_vars(array(
-			'S_ENABLE_HOHOHATCORNER'	=> isset($this->config['enable_hohohatcorner']) ? $this->config['enable_hohohatcorner'] : '',
+			/* XMAS Start */
+			'S_ENABLE_XMAS'	=> isset($this->config['enable_xmas']) ? $this->config['enable_xmas'] : '',
+			/* XMAS Stop */
+			
+			/* Valentine Start */
+			'S_ENABLE_VALENTINE'	=> isset($this->config['enable_valentine']) ? $this->config['enable_valentine'] : '',
+			/* Valentine Stop */
 
 			'U_ACTION'					=> $this->u_action,
 		));

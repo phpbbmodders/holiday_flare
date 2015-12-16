@@ -5,7 +5,7 @@
 	margin: -159px 0 0 -36px;
     position: relative;
 	z-index: 900;
-	background: transparent url(images/hohohat.png) 0 0 no-repeat; /* http://artdesigner.lv/licensing | http://artdesigner.lv/silent-night-10-christmas-icons */
+	background: transparent url(images/xmas.png) 0 0 no-repeat; /* http://artdesigner.lv/licensing | http://artdesigner.lv/silent-night-10-christmas-icons */
 	display: block;
 }
 
@@ -16,7 +16,7 @@
 	margin: -159px -36px 0 0;
 	position: relative;
 	z-index: 900;
-	background: transparent url(images/hohohat.png) 0 0 no-repeat;
+	background: transparent url(images/xmas.png) 0 0 no-repeat;
 	display: block;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
@@ -24,6 +24,21 @@
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: "FlipH";
+}
+
+
+.forumbg, .forabg {
+	background: #084A8C url("./images/bglist_xmas.gif") repeat;
+}
+
+.hat {
+	background: url("./images/hat_xmas.png");
+	width: 47px;
+	height: 47px;
+	position: absolute;
+	z-index: 1000;
+	margin-left: -16px;
+	margin-top: -6px;
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {

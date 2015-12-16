@@ -9,12 +9,20 @@
 	<fieldset>
 		<legend>{L_ACP_HOLIDAYFLARE_SETTINGS}</legend>
 		<dl>
-			<dt><label for="enable_hohohatcorner">{L_ENABLE_HOHOHATCORNER}{L_COLON}</label><br /><span>{L_ENABLE_HOHOHATCORNER_EXPLAIN}</span></dt>
+			<dt><label for="enable_xmas">{L_ENABLE_XMAS}{L_COLON}</label><br /><span>{L_ENABLE_XMAS_EXPLAIN}</span></dt>
 			<dd>
-				<label><input type="radio" class="radio" name="enable_hohohatcorner" id="enable_hohohatcorner" value="1"<!-- IF S_ENABLE_HOHOHATCORNER --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
-				<label><input type="radio" class="radio" name="enable_hohohatcorner" value="0"<!-- IF not S_ENABLE_HOHOHATCORNER --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+				<label><input type="radio" class="radio" name="enable_xmas" id="enable_xmas" value="1"<!-- IF S_ENABLE_XMAS --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="enable_xmas" value="0"<!-- IF not S_ENABLE_XMAS --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
 			</dd>
 		</dl>
+		<dl>
+			<dt><label for="enable_valentine">{L_ENABLE_VALENTINE}{L_COLON}</label><br /><span>{L_ENABLE_VALENTINE_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="enable_valentine" id="enable_valentine" value="1"<!-- IF S_ENABLE_VALENTINE --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="enable_valentine" value="0"<!-- IF not S_ENABLE_VALENTINE --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			</dd>
+		</dl>
+		
 	</fieldset>
 
 	<fieldset>

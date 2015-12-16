@@ -60,6 +60,12 @@ class listener implements EventSubscriberInterface
 	*/
 	public function get_holiday_config()
 	{
-		$this->template->assign_var('S_ENABLE_HOHOHATCORNER', $this->config['enable_hohohatcorner']);
+		/* XMAS Start */
+		$this->template->assign_var('S_ENABLE_XMAS', $this->config['enable_xmas']);
+		/* XMAS Stop */
+		
+		/* VALENTINE Start */
+		$this->template->assign_var('S_ENABLE_VALENTINE', $this->config['enable_valentine']);
+		/* VALENTINE Stop */
 	}
 }
