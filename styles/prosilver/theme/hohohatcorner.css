@@ -5,7 +5,7 @@
 	margin-top: -8px;
 	margin-left: -35px;
     position: absolute;
-	z-index: 2;
+	z-index: 1;
 	background: transparent url(images/hohohat.png) 0 0 no-repeat; /* http://artdesigner.lv/licensing | http://artdesigner.lv/silent-night-10-christmas-icons */
 	display: block;
 }
@@ -26,7 +26,7 @@
 	position: absolute;
 	height: 50px;
 	width: 50px;
-	z-index: 2;
+	z-index: 1;
 	display: block;
 	margin-left: -18px;
 	margin-top: -4px;	
