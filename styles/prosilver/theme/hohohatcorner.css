@@ -2,22 +2,39 @@
 	float: left;
 	height: 96px;
 	width: 96px;
-	margin: -159px 0 0 -36px;
-    position: relative;
-	z-index: 900;
+	margin-top: -8px;
+	margin-left: -35px;
+    position: absolute;
+	z-index: 2;
 	background: transparent url(images/hohohat.png) 0 0 no-repeat; /* http://artdesigner.lv/licensing | http://artdesigner.lv/silent-night-10-christmas-icons */
 	display: block;
 }
 
 .rtl #banner-xmas {
 	float: right;
-	height: 96px;
-	width: 96px;
-	margin: -159px -36px 0 0;
-	position: relative;
-	z-index: 900;
-	background: transparent url(images/hohohat.png) 0 0 no-repeat;
+	margin-right: -35px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.forum-xmas {
+	background: transparent url("images/hohohatmini.png") 0 0 no-repeat;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	z-index: 2;
 	display: block;
+	margin-left: -18px;
+	margin-top: -4px;	
+}
+
+.rtl .forum-xmas {
+	float: right;
+	margin-right: -18px;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
@@ -27,5 +44,5 @@
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-	#banner-xmas { display: none }
+	#banner-xmas, .forum-xmas { display: none; }
 }
