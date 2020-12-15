@@ -2,7 +2,10 @@ services:
     phpbbmodders.holidayflare.listener:
         class: phpbbmodders\holidayflare\event\listener
         arguments:
-            - @config
-            - @template
+            - '@config'
+            - '@template'
         tags:
             - { name: event.listener }
+
+    _defaults:
+        public: true
