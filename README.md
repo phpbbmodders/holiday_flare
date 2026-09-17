@@ -2,12 +2,12 @@ Holiday Flare
 =================
 Allows an admin to display various seasonal holiday flares to their default style. The images/javascript can be enable/disabled in the ACP via `EXTENSIONS --> Holiday Flare --> Settings`.
 
-[![Build Status](https://travis-ci.org/phpbbmodders/holiday_flare.png)](https://travis-ci.org/phpbbmodders/holiday_flare)
+[![CI](https://github.com/phpbbmodders/holiday_flare/actions/workflows/ci.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/ci.yml)
 
 ## Features
-* enable/disable the various holiday flares
- * Add Santa Hat to the corner of the header
-
+* Enable/disable each holiday flare independently
+ * Christmas: a Santa hat in the header corner, plus a smaller matching icon on the forum list (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
+ * Valentine's Day: a matching header-corner icon (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
 
 ## Installation
 
@@ -24,7 +24,7 @@ Go to ACP -> `CUSTOMISE -> Manage extensions ->` enable Holiday Flare
 
 ### 3. configure
 
-Go to ACP -> `EXTENSIONS --> Holiday Flare --> Settings ->` set *Enable Santa Hat* to *Yes*
+Go to ACP -> `EXTENSIONS --> Holiday Flare --> Settings ->` set *Christmas Theme* and/or *Valentine Theme* to *Yes*
 
 ## Support
 
