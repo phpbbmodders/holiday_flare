@@ -44,8 +44,8 @@ Contributions are welcome! Pull requests are welcome for bug fixes or discussed 
 
 ## Acknowledgments
 
-- The Valentine's Day theme was originally contributed by Matt Friedman ([MattF](https://www.phpbb.com/customise/db/author/mattf)).
-- The jQuery-based header banner was originally contributed by Rich McGirr (RMcGirr83), extended to additional styles by Galixte (Raphaël M.).
+- The Valentine's Day theme was originally contributed by [TWEagle](https://github.com/TWEagle).
+- The jQuery-based header banner was originally contributed by Rich McGirr ([rmcgirr83](https://github.com/rmcgirr83)), extended to additional styles by Raphaël M. ([Galixte](https://github.com/Galixte)).
 - Modernization (current PHP/phpBB version support, a real bug fix confirmed against a live phpBB install, reconciling several long-open pull requests, and this documentation) assisted by [Claude](https://www.anthropic.com/claude).
 
 ## License
