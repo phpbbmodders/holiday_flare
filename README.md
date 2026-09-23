@@ -9,6 +9,8 @@ Allows an admin to display various seasonal holiday flares to their default styl
  * Christmas: a Santa hat in the header corner, plus a smaller matching icon on the forum list (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
  * Valentine's Day: a matching header-corner icon (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
 
+See [docs/screenshots](docs/screenshots) for both themes rendered.
+
 ## Installation
 
 ### 1. clone
