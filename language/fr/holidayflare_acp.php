@@ -35,13 +35,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_HOLIDAYFLARE'			=> 'Illuminations de Noël',
-	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Joyeuses fêtes !',
+	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Joyeuses fêtes !',
 
-	'ENABLE_HOHOHATCORNER'			=> 'Activer le chapeau du Père Noël',
-	'ENABLE_HOHOHATCORNER_EXPLAIN'	=> 'Sélectionner « Oui » pour afficher le chapeau du Père Noël et « Non » pour le masquer.',
+	'ENABLE_XMAS'				=> 'Activer le thème de Noël',
+	'ENABLE_XMAS_EXPLAIN'		=> 'Sélectionner « Oui » pour afficher le thème de Noël et « Non » pour le masquer.',
+
+	'ENABLE_VALENTINE'			=> 'Activer le thème de la Saint-Valentin',
+	'ENABLE_VALENTINE_EXPLAIN'	=> 'Sélectionner « Oui » pour afficher le thème de la Saint-Valentin et « Non » pour le masquer.',
 ));

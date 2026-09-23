@@ -1,13 +1,20 @@
 Holiday Flare
 =================
-Allows an admin to display various seasonal holiday flares to their default style. The images/javascript can be enable/disabled in the ACP via `EXTENSIONS --> Holiday Flare --> Settings`.
+Allows an admin to display seasonal holiday flares on their forum. The Christmas and Valentine's Day themes can be enabled or disabled independently in the ACP via `EXTENSIONS --> Holiday Flare --> Settings`.
 
-[![Build Status](https://travis-ci.org/phpbbmodders/holiday_flare.png)](https://travis-ci.org/phpbbmodders/holiday_flare)
+[![CI](https://github.com/phpbbmodders/holiday_flare/actions/workflows/ci.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/ci.yml)
 
 ## Features
-* enable/disable the various holiday flares
- * Add Santa Hat to the corner of the header
+* Enable/disable each holiday flare independently
+ * Christmas: a Santa hat in the header corner, plus a smaller matching icon on the forum list (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
+ * Valentine's Day: a matching header-corner icon (prosilver, Green-Style-Slim, pro_ubuntu_lucid, proflat)
 
+See [docs/screenshots](docs/screenshots) for both themes rendered.
+
+## Requirements
+
+* PHP 7.1 or later
+* phpBB 3.1.0-RC3 up to (but not including) 3.3
 
 ## Installation
 
@@ -24,8 +31,25 @@ Go to ACP -> `CUSTOMISE -> Manage extensions ->` enable Holiday Flare
 
 ### 3. configure
 
-Go to ACP -> `EXTENSIONS --> Holiday Flare --> Settings ->` set *Enable Santa Hat* to *Yes*
+Go to ACP -> `EXTENSIONS --> Holiday Flare --> Settings ->` set *Christmas Theme* and/or *Valentine Theme* to *Yes*
 
 ## Support
 
-https://www.phpbb.com/community/viewtopic.php?f=456&t=2277491
+- **Bug reports**: [Open an issue](https://github.com/phpbbmodders/holiday_flare/issues).
+- **Everything else** (questions, feature requests, general discussion): [the phpBB.com support thread](https://www.phpbb.com/community/viewtopic.php?f=456&t=2277491).
+
+## Contributing
+
+Contributions are welcome! Pull requests are welcome for bug fixes or discussed features.
+
+## Acknowledgments
+
+- The Valentine's Day theme was originally contributed by [TWEagle](https://github.com/TWEagle).
+- The jQuery-based header banner was originally contributed by Rich McGirr ([rmcgirr83](https://github.com/rmcgirr83)), extended to additional styles by Raphaël M. ([Galixte](https://github.com/Galixte)).
+- Modernization (current PHP/phpBB version support, a real bug fix confirmed against a live phpBB install, reconciling several long-open pull requests, and this documentation) assisted by [Claude](https://www.anthropic.com/claude).
+
+## License
+
+This extension is licensed under the **GNU General Public License v2.0**.
+
+See [license.txt](license.txt) for more information.

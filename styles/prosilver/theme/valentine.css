@@ -1,0 +1,26 @@
+#banner-valentine {
+	float: left;
+	height: 96px;
+	width: 96px;
+	margin-top: -8px;
+	margin-left: -35px;
+	position: absolute;
+	z-index: 1;
+	background: transparent url(images/valentine.png) 0 0 no-repeat;
+	display: block;
+}
+
+.rtl #banner-valentine {
+	float: right;
+	margin-right: -35px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	#banner-valentine { display: none; }
+}

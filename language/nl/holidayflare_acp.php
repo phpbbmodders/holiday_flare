@@ -7,7 +7,6 @@
  * @copyright (c) 2014 phpbbmodders.net
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
- * Translated By : Basil Taha Alhitary - www.alhitary.net
  */
 
 /**
@@ -40,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_HOLIDAYFLARE'			=> 'أيام المناسبات',
-	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'المُناسبات السعيدة !',
+	'ACP_HOLIDAYFLARE'			=> 'Holiday Flare',
+	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Fijne Feesten!',
 
-	'ENABLE_XMAS'				=> 'تفعيل زينة الكريسماس',
-	'ENABLE_XMAS_EXPLAIN'		=> 'اختيارك "نعم" يعني إظهار زينة الكريسماس في ترويسة المنتدى، واختيارك "لا" يعني إخفاءها.',
+	'ENABLE_XMAS'				=> 'Kerstthema',
+	'ENABLE_XMAS_EXPLAIN'		=> 'Selecteer "Ja" om het Kerstthema te zien en "Nee" om het te verbergen.',
 
-	'ENABLE_VALENTINE'			=> 'تفعيل زينة عيد الحب',
-	'ENABLE_VALENTINE_EXPLAIN'	=> 'اختيارك "نعم" يعني إظهار زينة عيد الحب في ترويسة المنتدى، واختيارك "لا" يعني إخفاءها.',
+	'ENABLE_VALENTINE'			=> 'Valentijnthema',
+	'ENABLE_VALENTINE_EXPLAIN'	=> 'Selecteer "Ja" om het Valentijnthema te zien en "Nee" om het te verbergen.',
 ));
