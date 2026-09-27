@@ -13,8 +13,8 @@ See [docs/screenshots](docs/screenshots) for both themes rendered.
 
 ## Requirements
 
-* PHP 7.1 or later
-* phpBB 3.1.0-RC3 up to (but not including) 3.3
+* PHP 7.4 or later
+* phpBB 3.3.19 or later (3.3.x)
 
 ## Installation
 
