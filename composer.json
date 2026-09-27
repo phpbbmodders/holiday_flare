@@ -2,20 +2,33 @@
 	"name": "phpbbmodders/holidayflare",
 	"type": "phpbb-extension",
 	"description": "Allows an admin to display various seasonal holiday flares to their default style. The images/javascript can be enable/disabled in the ACP via EXTENSIONS --> Holiday Flare --> Settings",
-	"homepage": "https://github.com/phpbbmodders/holiday_flare",
+	"homepage": "https://www.phpbbmodders.com/",
 	"version": "2.1.0",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"holidays",
+		"seasonal",
+		"decorations"
+	],
 	"license": "GPL-2.0-only",
 	"authors": [
+		{
+			"name": "phpBB Modders",
+			"email": "board@phpbbmodders.com",
+			"homepage": "https://www.phpbbmodders.com/",
+			"role": "Extension Developer"
+		},
 		{
 			"name": "William (bonelifer)",
 			"email": "bonelifer@phpbbmodders.net",
 			"homepage": "https://www.phpbbmodders.com/",
-			"role": "Developer"
+			"role": "Past Developer"
 		},
 		{
 			"name": "Matt Friedman (MattF)",
 			"homepage": "https://www.phpbb.com/customise/db/author/mattf",
-			"role": "Extension conversion"
+			"role": "Past Developer"
 		}
 	],
 	"require": {

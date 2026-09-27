@@ -1,13 +1,15 @@
 <?php
 /**
-*
-* Holiday Flare extension for the phpBB Forum Software package.
-* French translation by Galixte (http://www.galixte.com)
-*
-* @copyright (c) 2015 VSE (Matt Friedman) & bonelifer (William Jacoby) bonelifer@phpbbmodders.net <http://www.phpbbmodders.net>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Holiday Flare extension for the phpBB Forum Software package
+ *
+ * @copyright (c) 2015 VSE (Matt Friedman) & bonelifer (William Jacoby) bonelifer@phpbbmodders.net <http://www.phpbbmodders.net>
+ * @copyright (c) 2026, phpBB Modders, https://www.phpbbmodders.com/
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * French translation by Galixte (http://www.galixte.com)
+ *
+ */
 
 /**
 * DO NOT CHANGE
