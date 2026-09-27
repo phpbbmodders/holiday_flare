@@ -42,11 +42,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_HOLIDAYFLARE'			=> 'Holiday Flare',
-	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Happy Holidays!',
-
-	'ENABLE_XMAS'				=> 'Christmas Theme',
-	'ENABLE_XMAS_EXPLAIN'		=> 'Select "Yes" to show the Christmas Theme and "No" to hide it.',
-
-	'ENABLE_VALENTINE'			=> 'Valentine Theme',
-	'ENABLE_VALENTINE_EXPLAIN'	=> 'Select "Yes" to show the Valentine Theme and "No" to hide it.',
+	'ACP_HOLIDAYFLARE_SETTINGS'	=> 'Instellingen',
 ));

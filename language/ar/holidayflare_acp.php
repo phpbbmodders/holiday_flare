@@ -1,13 +1,16 @@
 <?php
 /**
  *
- * @package Holiday Flare extension
+ * Holiday Flare extension for the phpBB Forum Software package
+ *
  * @author bonelifer (William Jacoby) bonelifer@phpbbmodders.net
  * @author VSE (Matt Friedman)
  * @copyright (c) 2014 phpbbmodders.net
+ * @copyright (c) 2026, phpBB Modders, https://www.phpbbmodders.com/
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * Translated By : Basil Taha Alhitary - www.alhitary.net
+ *
  */
 
 /**
@@ -43,6 +46,9 @@ $lang = array_merge($lang, array(
 	'ACP_HOLIDAYFLARE'			=> 'أيام المناسبات',
 	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'المُناسبات السعيدة !',
 
-	'ENABLE_HOHOHATCORNER'			=> 'تفعيل',
-	'ENABLE_HOHOHATCORNER_EXPLAIN'	=> 'اختيارك "نعم" يعني إظهار صورة المناسبة في ترويسة المنتدى , اختيارك "لا" يعني إخفائها.',
+	'ENABLE_XMAS'				=> 'تفعيل زينة الكريسماس',
+	'ENABLE_XMAS_EXPLAIN'		=> 'اختيارك "نعم" يعني إظهار زينة الكريسماس في ترويسة المنتدى، واختيارك "لا" يعني إخفاءها.',
+
+	'ENABLE_VALENTINE'			=> 'تفعيل زينة عيد الحب',
+	'ENABLE_VALENTINE_EXPLAIN'	=> 'اختيارك "نعم" يعني إظهار زينة عيد الحب في ترويسة المنتدى، واختيارك "لا" يعني إخفاءها.',
 ));

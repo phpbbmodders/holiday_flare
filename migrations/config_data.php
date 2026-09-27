@@ -1,11 +1,13 @@
 <?php
 /**
  *
- * @package Holiday Flare extension
+ * Holiday Flare extension for the phpBB Forum Software package
+ *
  * @author bonelifer (William Jacoby) bonelifer@phpbbmodders.net
  * @author VSE (Matt Friedman)
  * @author RMcGirr83 (Rich McGirr)
  * @copyright (c) 2014 phpbbmodders.net
+ * @copyright (c) 2026, phpBB Modders, https://www.phpbbmodders.com/
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */

@@ -1,13 +1,15 @@
 <?php
 /**
-*
-* Holiday Flare extension for the phpBB Forum Software package.
-* French translation by Galixte (http://www.galixte.com)
-*
-* @copyright (c) 2015 VSE (Matt Friedman) & bonelifer (William Jacoby) bonelifer@phpbbmodders.net <http://www.phpbbmodders.net>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Holiday Flare extension for the phpBB Forum Software package
+ *
+ * @copyright (c) 2015 VSE (Matt Friedman) & bonelifer (William Jacoby) bonelifer@phpbbmodders.net <http://www.phpbbmodders.net>
+ * @copyright (c) 2026, phpBB Modders, https://www.phpbbmodders.com/
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * French translation by Galixte (http://www.galixte.com)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -35,13 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_HOLIDAYFLARE'			=> 'Illuminations de Noël',
-	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Joyeuses fêtes !',
+	'ACP_HOLIDAYFLARE_EXPLAIN'	=> 'Joyeuses fêtes !',
 
-	'ENABLE_HOHOHATCORNER'			=> 'Activer le chapeau du Père Noël',
-	'ENABLE_HOHOHATCORNER_EXPLAIN'	=> 'Sélectionner « Oui » pour afficher le chapeau du Père Noël et « Non » pour le masquer.',
+	'ENABLE_XMAS'				=> 'Activer le thème de Noël',
+	'ENABLE_XMAS_EXPLAIN'		=> 'Sélectionner « Oui » pour afficher le thème de Noël et « Non » pour le masquer.',
+
+	'ENABLE_VALENTINE'			=> 'Activer le thème de la Saint-Valentin',
+	'ENABLE_VALENTINE_EXPLAIN'	=> 'Sélectionner « Oui » pour afficher le thème de la Saint-Valentin et « Non » pour le masquer.',
 ));

@@ -1,10 +1,12 @@
 <?php
 /**
  *
- * @package Holiday Flare extension
+ * Holiday Flare extension for the phpBB Forum Software package
+ *
  * @author bonelifer (William Jacoby) bonelifer@phpbbmodders.net
  * @author VSE (Matt Friedman)
  * @copyright (c) 2014 phpbbmodders.net
+ * @copyright (c) 2026, phpBB Modders, https://www.phpbbmodders.com/
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
@@ -53,13 +55,16 @@ class listener implements EventSubscriberInterface
 	}
 
 	/**
-	* Get config var
+	* Get config vars
 	*
 	* @return null
 	* @access public
 	*/
 	public function get_holiday_config()
 	{
-		$this->template->assign_var('S_ENABLE_HOHOHATCORNER', $this->config['enable_hohohatcorner']);
+		$this->template->assign_vars(array(
+			'S_ENABLE_XMAS'		=> $this->config['enable_xmas'],
+			'S_ENABLE_VALENTINE'	=> $this->config['enable_valentine'],
+		));
 	}
 }
