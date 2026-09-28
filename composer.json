@@ -1,7 +1,7 @@
 {
 	"name": "phpbbmodders/holidayflare",
 	"type": "phpbb-extension",
-	"description": "Allows an admin to display various seasonal holiday flares to their default style. The images/javascript can be enable/disabled in the ACP via EXTENSIONS --> Holiday Flare --> Settings",
+	"description": "Adds seasonal decorations — Christmas and Valentine's Day — that you switch on from the ACP.",
 	"homepage": "https://www.phpbbmodders.com/",
 	"version": "2.1.0",
 	"keywords": [
