@@ -61,12 +61,15 @@ class holidayflare_module
 			$this->config->set('enable_xmas', $this->request->variable('enable_xmas', 0));
 			$this->config->set('enable_valentine', $this->request->variable('enable_valentine', 0));
 
+			$this->config->set('enable_newyear', $this->request->variable('enable_newyear', 0));
+
 			trigger_error($this->user->lang('CONFIG_UPDATED') . adm_back_link($this->u_action));
 		}
 
 		$this->template->assign_vars(array(
 			'S_ENABLE_XMAS'			=> isset($this->config['enable_xmas']) ? $this->config['enable_xmas'] : '',
 			'S_ENABLE_VALENTINE'		=> isset($this->config['enable_valentine']) ? $this->config['enable_valentine'] : '',
+			'S_ENABLE_NEWYEAR'		=> isset($this->config['enable_newyear']) ? $this->config['enable_newyear'] : '',
 
 			'U_ACTION'					=> $this->u_action,
 		));

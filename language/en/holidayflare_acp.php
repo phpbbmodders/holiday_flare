@@ -49,4 +49,6 @@ $lang = array_merge($lang, array(
 
 	'ENABLE_VALENTINE'			=> 'Valentine Theme',
 	'ENABLE_VALENTINE_EXPLAIN'	=> 'Select "Yes" to show the Valentine Theme and "No" to hide it.',
+	'ENABLE_NEWYEAR'			=> 'New Year Theme',
+	'ENABLE_NEWYEAR_EXPLAIN'	=> 'Select "Yes" to show the New Year Theme and "No" to hide it.',
 ));

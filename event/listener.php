@@ -65,6 +65,7 @@ class listener implements EventSubscriberInterface
 		$this->template->assign_vars(array(
 			'S_ENABLE_XMAS'		=> $this->config['enable_xmas'],
 			'S_ENABLE_VALENTINE'	=> $this->config['enable_valentine'],
+			'S_ENABLE_NEWYEAR'	=> $this->config['enable_newyear'],
 		));
 	}
 }
