@@ -1,3 +1,3 @@
 (function($) {
-	$('<div id="banner-valentine"></div>').insertBefore('#page-header');
+	$('<div id="banner-valentine"></div>').prependTo('#site-description');
 })(jQuery);
