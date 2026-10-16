@@ -1,9 +1,13 @@
+#site-description {
+	position: relative;
+}
+
 #banner-valentine {
 	float: left;
 	height: 96px;
 	width: 96px;
 	margin-top: -8px;
-	margin-left: -35px;
+	margin-left: -3em;
 	position: absolute;
 	z-index: 1;
 	background: transparent url(images/valentine.png) 0 0 no-repeat;
@@ -12,7 +16,7 @@
 
 .rtl #banner-valentine {
 	float: right;
-	margin-right: -35px;
+	margin-right: -3em;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
