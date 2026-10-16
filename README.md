@@ -2,13 +2,15 @@
 
 [![Tests](https://github.com/phpbbmodders/holiday_flare/actions/workflows/tests.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/tests.yml) [![Lint](https://github.com/phpbbmodders/holiday_flare/actions/workflows/lint.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/lint.yml)
 
-Adds seasonal decorations — Christmas and Valentine's Day — that you switch on from the ACP.
+Adds seasonal decorations — Christmas, Valentine's Day and New Year — that you switch on from the ACP.
 
 ## Features
 
 - Each holiday theme can be switched on or off on its own.
 - Christmas: a Santa hat in the header corner, plus a smaller matching icon on the forum list.
 - Valentine's Day: a matching header-corner icon.
+- New Year: a 96 × 96 header icon.
+- When several themes are enabled, Christmas takes priority, followed by Valentine and New Year.
 - Supported styles: prosilver, Green-Style-Slim, pro_ubuntu_lucid and proflat.
 
 See [docs/screenshots](docs/screenshots) for both themes.
@@ -23,7 +25,7 @@ See [docs/screenshots](docs/screenshots) for both themes.
 1. Copy the extension to `/ext/phpbbmodders/holidayflare`
 2. In the Administration Control Panel, go to **Customise → Manage extensions**
 3. Enable the **Holiday Flare** extension
-4. Under **ACP → Extensions → Holiday Flare → Settings**, set *Christmas Theme* and/or *Valentine Theme* to *Yes*
+4. Under **ACP → Extensions → Holiday Flare → Settings**, set *Christmas Theme*, *Valentine Theme* or *New Year Theme* to *Yes*
 
 ## Contributing
 
