@@ -18,9 +18,17 @@ Adds selectable holiday decorations to the left corner, header top, header botto
 
 ## Screenshots
 
-[<img src="docs/images/screenshots/placement-desktop.png" width="640" height="400" alt="Easter header decorations and independent clover forum icons" />](docs/images/screenshots/placement-desktop.png)
+Easter header artwork with independent St. Patrick’s Day clover forum icons.
 
-[<img src="docs/images/screenshots/placement-settings.png" width="640" height="400" alt="Holiday-grouped dropdowns" />](docs/images/screenshots/placement-settings.png)
+[<img src="docs/images/screenshots/holiday-flare-mixed-holidays.png" width="640" height="450" alt="Easter header artwork with independent St. Patrick’s Day clover forum icons." />](docs/images/screenshots/holiday-flare-mixed-holidays.png)
+
+The original Christmas hat and independently selected forum-list hats.
+
+[<img src="docs/images/screenshots/holiday-flare-christmas.png" width="640" height="450" alt="The original Christmas hat and independently selected forum-list hats." />](docs/images/screenshots/holiday-flare-christmas.png)
+
+Full ACP settings: seven holiday groups and five independent placements.
+
+[<img src="docs/images/screenshots/holiday-flare-acp-settings.png" width="640" height="931" alt="Full ACP settings: seven holiday groups and five independent placements." />](docs/images/screenshots/holiday-flare-acp-settings.png)
 
 [View the screenshot gallery](docs/images/screenshots/README.md).
 

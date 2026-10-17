@@ -1,9 +1,15 @@
-# Decoration placement screenshots
+# Holiday Flare screenshots
 
-Mixed holidays: Easter header artwork and independent St. Patrick’s Day clover forum icons.
+Captured on phpBB 3.3.19 with Prosilver and seeded Example board content.
 
-[<img src="placement-desktop.png" width="640" height="400" alt="Mixed holiday decorations on Prosilver" />](placement-desktop.png)
+Easter header artwork with independent St. Patrick’s Day clover forum icons.
 
-Dropdown choices are grouped by holiday, with five independent placements. Each placement allows one image across all holidays, or None.
+[<img src="holiday-flare-mixed-holidays.png" width="640" height="450" alt="Easter header artwork with independent St. Patrick’s Day clover forum icons." />](holiday-flare-mixed-holidays.png)
 
-[<img src="placement-settings.png" width="640" height="400" alt="Holiday-grouped dropdowns" />](placement-settings.png)
+The original Christmas hat and independently selected forum-list hats.
+
+[<img src="holiday-flare-christmas.png" width="640" height="450" alt="The original Christmas hat and independently selected forum-list hats." />](holiday-flare-christmas.png)
+
+Full ACP settings: seven holiday groups and five independent placements.
+
+[<img src="holiday-flare-acp-settings.png" width="640" height="931" alt="Full ACP settings: seven holiday groups and five independent placements." />](holiday-flare-acp-settings.png)
