@@ -34,5 +34,8 @@ jobs:
       - name: PHP syntax check
         run: find . -name '*.php' -not -path './.git/*' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
 
+      - name: Validate decoration catalogue
+        run: php tools/check-decoration-catalog.php
+
       - name: Validate composer.json
         run: composer validate --no-check-all --no-check-publish

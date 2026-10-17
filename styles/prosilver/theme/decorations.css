@@ -1,0 +1,84 @@
+#site-description, .holiday-flare-header {
+	position: relative;
+}
+
+.holiday-flare-decoration {
+	position: absolute;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.holiday-flare-decoration img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#holiday-flare-corner {
+	width: 96px;
+	height: 96px;
+	top: -8px;
+	left: -3em;
+}
+
+.rtl #holiday-flare-corner {
+	left: auto;
+	right: -3em;
+}
+
+.rtl #holiday-flare-corner img[src$="/xmas.png"],
+.rtl #holiday-flare-corner img[src$="/valentine.png"] {
+	transform: scaleX(-1);
+}
+
+#holiday-flare-center-top, #holiday-flare-center-bottom, #holiday-flare-center {
+	width: 240px;
+	max-width: 30%;
+	height: 96px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#holiday-flare-center-top {
+	top: -12px;
+}
+
+#holiday-flare-center-bottom {
+	bottom: -24px;
+}
+
+#holiday-flare-center {
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.holiday-flare-forum {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	pointer-events: none;
+	margin-left: -18px;
+	margin-top: -4px;
+}
+
+.holiday-flare-forum img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.rtl .holiday-flare-forum {
+	margin-left: 0;
+	margin-right: -18px;
+}
+
+.rtl .holiday-flare-forum-xmas_mini img {
+	transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 700px) {
+	.holiday-flare-decoration, .holiday-flare-forum { display: none; }
+}

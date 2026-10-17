@@ -1,4 +1,5 @@
 <!-- INCLUDE overall_header.html -->
+<!-- INCLUDEJS @phpbbmodders_holidayflare/acp.js -->
 
 <h1>{L_ACP_HOLIDAYFLARE}</h1>
 
@@ -6,30 +7,24 @@
 
 <form id="select_victim" method="post" action="{U_ACTION}">
 
-	<fieldset>
-		<legend>{L_ACP_HOLIDAYFLARE_SETTINGS}</legend>
+	<!-- BEGIN holidays -->
+	<fieldset class="holiday-group">
+		<legend>{holidays.LABEL}</legend>
+		<!-- BEGIN placements -->
 		<dl>
-			<dt><label for="enable_xmas">{L_ENABLE_XMAS}{L_COLON}</label><br /><span>{L_ENABLE_XMAS_EXPLAIN}</span></dt>
+			<dt><label for="holidayflare_{holidays.ID}_{holidays.placements.ID}">{holidays.placements.LABEL}{L_COLON}</label></dt>
 			<dd>
-				<label><input type="radio" class="radio" name="enable_xmas" id="enable_xmas" value="1"<!-- IF S_ENABLE_XMAS --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
-				<label><input type="radio" class="radio" name="enable_xmas" value="0"<!-- IF not S_ENABLE_XMAS --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+				<select class="holiday-select" data-placement="{holidays.placements.ID}" name="holidayflare_{holidays.ID}_{holidays.placements.ID}" id="holidayflare_{holidays.ID}_{holidays.placements.ID}">
+					<option value="">{L_HOLIDAY_NONE}</option>
+					<!-- BEGIN options -->
+					<option value="{holidays.placements.options.ID}"<!-- IF holidays.placements.options.S_SELECTED --> selected="selected"<!-- ENDIF -->>{holidays.placements.options.LABEL}</option>
+					<!-- END options -->
+				</select>
 			</dd>
 		</dl>
-		<dl>
-			<dt><label for="enable_valentine">{L_ENABLE_VALENTINE}{L_COLON}</label><br /><span>{L_ENABLE_VALENTINE_EXPLAIN}</span></dt>
-			<dd>
-				<label><input type="radio" class="radio" name="enable_valentine" id="enable_valentine" value="1"<!-- IF S_ENABLE_VALENTINE --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
-				<label><input type="radio" class="radio" name="enable_valentine" value="0"<!-- IF not S_ENABLE_VALENTINE --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
-			</dd>
-		</dl>
-		<dl>
-			<dt><label for="enable_newyear">{L_ENABLE_NEWYEAR}{L_COLON}</label><br /><span>{L_ENABLE_NEWYEAR_EXPLAIN}</span></dt>
-			<dd>
-				<label><input type="radio" class="radio" name="enable_newyear" id="enable_newyear" value="1"<!-- IF S_ENABLE_NEWYEAR --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
-				<label><input type="radio" class="radio" name="enable_newyear" value="0"<!-- IF not S_ENABLE_NEWYEAR --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
-			</dd>
-		</dl>
+		<!-- END placements -->
 	</fieldset>
+	<!-- END holidays -->
 
 	<fieldset>
 		<legend>{L_ACP_SUBMIT_CHANGES}</legend>
