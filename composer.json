@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Adds independently selectable holiday artwork to the header and forum list from the ACP.",
 	"homepage": "https://www.phpbbmodders.com/",
-	"version": "2.1.0",
+	"version": "2.1.0-dev",
 	"keywords": [
 		"phpbb",
 		"extension",
