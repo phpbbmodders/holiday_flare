@@ -1,0 +1,1244 @@
+/* Artwork bounds compensate for transparent padding without changing the source images. */
+
+#holiday-flare-corner.holiday-flare-xmas {
+	width: 96.00px;
+	height: 96.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-xmas {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-xmas img {
+	position: absolute;
+	max-width: none;
+	width: 100.0000%;
+	height: 100.0000%;
+	left: 0.0000%;
+	top: 0.0000%;
+}
+
+#holiday-flare-corner.holiday-flare-valentine {
+	width: 72.00px;
+	height: 72.00px;
+	top: -8px;
+	left: -22px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-valentine {
+	left: auto;
+	right: -22px;
+}
+
+#holiday-flare-corner.holiday-flare-valentine img {
+	position: absolute;
+	max-width: none;
+	width: 117.0732%;
+	height: 117.0732%;
+	left: -1.2195%;
+	top: -1.2195%;
+}
+
+#holiday-flare-center.holiday-flare-valentine {
+	width: 62.00px;
+	height: 62.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-valentine img {
+	position: absolute;
+	max-width: none;
+	width: 117.0732%;
+	height: 117.0732%;
+	left: -1.2195%;
+	top: -1.2195%;
+}
+
+#holiday-flare-corner.holiday-flare-newyear {
+	width: 80.00px;
+	height: 80.00px;
+	top: -8px;
+	left: -22px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-newyear {
+	left: auto;
+	right: -22px;
+}
+
+#holiday-flare-corner.holiday-flare-newyear img {
+	position: absolute;
+	max-width: none;
+	width: 101.0526%;
+	height: 101.0526%;
+	left: -1.0526%;
+	top: -1.0526%;
+}
+
+#holiday-flare-center.holiday-flare-newyear {
+	width: 62.00px;
+	height: 62.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-newyear img {
+	position: absolute;
+	max-width: none;
+	width: 101.0526%;
+	height: 101.0526%;
+	left: -1.0526%;
+	top: -1.0526%;
+}
+
+#holiday-flare-center-top.holiday-flare-newyear_midnight {
+	width: 144.00px;
+	height: 85.77px;
+	max-width: none;
+	top: -20px;
+}
+
+#holiday-flare-center-top.holiday-flare-newyear_midnight img {
+	position: absolute;
+	max-width: none;
+	width: 101.6545%;
+	height: 113.7778%;
+	left: -1.4560%;
+	top: -7.3333%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-newyear_midnight {
+	width: 120.00px;
+	height: 71.48px;
+	max-width: none;
+	bottom: -16px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-newyear_midnight img {
+	position: absolute;
+	max-width: none;
+	width: 101.6545%;
+	height: 113.7778%;
+	left: -1.4560%;
+	top: -7.3333%;
+}
+
+#holiday-flare-center.holiday-flare-newyear_midnight {
+	width: 120.00px;
+	height: 71.48px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-newyear_midnight img {
+	position: absolute;
+	max-width: none;
+	width: 101.6545%;
+	height: 113.7778%;
+	left: -1.4560%;
+	top: -7.3333%;
+}
+
+#holiday-flare-center-top.holiday-flare-patriotic_fireworks {
+	width: 96.00px;
+	height: 88.95px;
+	max-width: none;
+	top: -28px;
+}
+
+#holiday-flare-center-top.holiday-flare-patriotic_fireworks img {
+	position: absolute;
+	max-width: none;
+	width: 102.5257%;
+	height: 103.1516%;
+	left: -1.4996%;
+	top: -1.1073%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-patriotic_fireworks {
+	width: 76.00px;
+	height: 70.42px;
+	max-width: none;
+	bottom: -16px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-patriotic_fireworks img {
+	position: absolute;
+	max-width: none;
+	width: 102.5257%;
+	height: 103.1516%;
+	left: -1.4996%;
+	top: -1.1073%;
+}
+
+#holiday-flare-center.holiday-flare-patriotic_fireworks {
+	width: 76.00px;
+	height: 70.42px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-patriotic_fireworks img {
+	position: absolute;
+	max-width: none;
+	width: 102.5257%;
+	height: 103.1516%;
+	left: -1.4996%;
+	top: -1.1073%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_autumn_pumpkin {
+	width: 72.10px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_autumn_pumpkin {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_autumn_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 102.9213%;
+	height: 103.0603%;
+	left: -1.5730%;
+	top: -0.2700%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_autumn_pumpkin {
+	width: 64.00px;
+	height: 53.26px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_autumn_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 102.9213%;
+	height: 103.0603%;
+	left: -1.5730%;
+	top: -0.2700%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_autumn_pumpkin {
+	width: 36.00px;
+	height: 29.96px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_autumn_pumpkin {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_autumn_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 102.9213%;
+	height: 103.0603%;
+	left: -1.5730%;
+	top: -0.2700%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_glowing_pumpkin {
+	width: 66.32px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_glowing_pumpkin {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_glowing_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 105.0354%;
+	height: 102.4348%;
+	left: -4.4847%;
+	top: -0.2609%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_glowing_pumpkin {
+	width: 64.00px;
+	height: 57.91px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_glowing_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 105.0354%;
+	height: 102.4348%;
+	left: -4.4847%;
+	top: -0.2609%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_glowing_pumpkin {
+	width: 36.00px;
+	height: 32.57px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_glowing_pumpkin {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_glowing_pumpkin img {
+	position: absolute;
+	max-width: none;
+	width: 105.0354%;
+	height: 102.4348%;
+	left: -4.4847%;
+	top: -0.2609%;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_ornament_corner {
+	width: 112.00px;
+	height: 81.02px;
+	top: -18px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-christmas_ornament_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_ornament_corner img {
+	position: absolute;
+	max-width: none;
+	width: 112.1168%;
+	height: 103.3300%;
+	left: -5.7664%;
+	top: -2.2200%;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_evergreen_corner {
+	width: 112.00px;
+	height: 84.46px;
+	top: -18px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-christmas_evergreen_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_evergreen_corner img {
+	position: absolute;
+	max-width: none;
+	width: 121.4229%;
+	height: 107.3375%;
+	left: -2.0553%;
+	top: -1.6771%;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_santa_ornaments {
+	width: 92.00px;
+	height: 69.50px;
+	top: -18px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-christmas_santa_ornaments {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_santa_ornaments img {
+	position: absolute;
+	max-width: none;
+	width: 118.5185%;
+	height: 104.5965%;
+	left: -7.5617%;
+	top: -1.5322%;
+}
+
+#holiday-flare-center.holiday-flare-christmas_santa_ornaments {
+	width: 94.00px;
+	height: 71.01px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-christmas_santa_ornaments img {
+	position: absolute;
+	max-width: none;
+	width: 118.5185%;
+	height: 104.5965%;
+	left: -7.5617%;
+	top: -1.5322%;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_bells_corner {
+	width: 112.00px;
+	height: 81.75px;
+	top: -18px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-christmas_bells_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_bells_corner img {
+	position: absolute;
+	max-width: none;
+	width: 117.5210%;
+	height: 107.3375%;
+	left: -5.9679%;
+	top: -4.9266%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_01 {
+	width: 66.08px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_01 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_01 img {
+	position: absolute;
+	max-width: none;
+	width: 138.3784%;
+	height: 101.5873%;
+	left: -19.1892%;
+	top: -1.0913%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_01 {
+	width: 63.87px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_01 img {
+	position: absolute;
+	max-width: none;
+	width: 138.3784%;
+	height: 101.5873%;
+	left: -19.1892%;
+	top: -1.0913%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_01 {
+	width: 36.00px;
+	height: 32.69px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_01 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_01 img {
+	position: absolute;
+	max-width: none;
+	width: 138.3784%;
+	height: 101.5873%;
+	left: -19.1892%;
+	top: -1.0913%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_02 {
+	width: 66.83px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_02 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_02 img {
+	position: absolute;
+	max-width: none;
+	width: 111.6788%;
+	height: 103.1617%;
+	left: -4.9473%;
+	top: -2.1680%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_02 {
+	width: 64.00px;
+	height: 57.46px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_02 img {
+	position: absolute;
+	max-width: none;
+	width: 111.6788%;
+	height: 103.1617%;
+	left: -4.9473%;
+	top: -2.1680%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_02 {
+	width: 36.00px;
+	height: 32.32px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_02 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_02 img {
+	position: absolute;
+	max-width: none;
+	width: 111.6788%;
+	height: 103.1617%;
+	left: -4.9473%;
+	top: -2.1680%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_03 {
+	width: 59.57px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_03 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_03 img {
+	position: absolute;
+	max-width: none;
+	width: 157.5385%;
+	height: 104.2770%;
+	left: -46.2564%;
+	top: -1.9348%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_03 {
+	width: 57.59px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_03 img {
+	position: absolute;
+	max-width: none;
+	width: 157.5385%;
+	height: 104.2770%;
+	left: -46.2564%;
+	top: -1.9348%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_03 {
+	width: 35.74px;
+	height: 36.00px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_03 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_03 img {
+	position: absolute;
+	max-width: none;
+	width: 157.5385%;
+	height: 104.2770%;
+	left: -46.2564%;
+	top: -1.9348%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_04 {
+	width: 64.97px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_04 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_04 img {
+	position: absolute;
+	max-width: none;
+	width: 141.6974%;
+	height: 102.2977%;
+	left: -11.9004%;
+	top: -1.5984%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_04 {
+	width: 62.81px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_04 img {
+	position: absolute;
+	max-width: none;
+	width: 141.6974%;
+	height: 102.2977%;
+	left: -11.9004%;
+	top: -1.5984%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_04 {
+	width: 36.00px;
+	height: 33.24px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_04 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_04 img {
+	position: absolute;
+	max-width: none;
+	width: 141.6974%;
+	height: 102.2977%;
+	left: -11.9004%;
+	top: -1.5984%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_05 {
+	width: 64.13px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_05 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_05 img {
+	position: absolute;
+	max-width: none;
+	width: 136.6483%;
+	height: 104.3307%;
+	left: -8.3794%;
+	top: -2.6575%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_05 {
+	width: 62.00px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_05 img {
+	position: absolute;
+	max-width: none;
+	width: 136.6483%;
+	height: 104.3307%;
+	left: -8.3794%;
+	top: -2.6575%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_05 {
+	width: 36.00px;
+	height: 33.68px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_05 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_05 img {
+	position: absolute;
+	max-width: none;
+	width: 136.6483%;
+	height: 104.3307%;
+	left: -8.3794%;
+	top: -2.6575%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_06 {
+	width: 64.69px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_06 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_06 img {
+	position: absolute;
+	max-width: none;
+	width: 140.9174%;
+	height: 101.2859%;
+	left: -20.6422%;
+	top: -1.2859%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_06 {
+	width: 62.53px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_06 img {
+	position: absolute;
+	max-width: none;
+	width: 140.9174%;
+	height: 101.2859%;
+	left: -20.6422%;
+	top: -1.2859%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_06 {
+	width: 36.00px;
+	height: 33.39px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_06 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_06 img {
+	position: absolute;
+	max-width: none;
+	width: 140.9174%;
+	height: 101.2859%;
+	left: -20.6422%;
+	top: -1.2859%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_07 {
+	width: 61.63px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_07 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_07 img {
+	position: absolute;
+	max-width: none;
+	width: 116.3823%;
+	height: 101.0517%;
+	left: -2.7304%;
+	top: -1.0517%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_07 {
+	width: 59.58px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_07 img {
+	position: absolute;
+	max-width: none;
+	width: 116.3823%;
+	height: 101.0517%;
+	left: -2.7304%;
+	top: -1.0517%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_07 {
+	width: 36.00px;
+	height: 35.05px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_07 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_07 img {
+	position: absolute;
+	max-width: none;
+	width: 116.3823%;
+	height: 101.0517%;
+	left: -2.7304%;
+	top: -1.0517%;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_08 {
+	width: 59.73px;
+	height: 60.00px;
+	top: -8px;
+	left: -30px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-halloween_pumpkin_08 {
+	left: auto;
+	right: -30px;
+}
+
+#holiday-flare-corner.holiday-flare-halloween_pumpkin_08 img {
+	position: absolute;
+	max-width: none;
+	width: 125.5626%;
+	height: 100.9857%;
+	left: -4.5905%;
+	top: -0.8961%;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_08 {
+	width: 57.74px;
+	height: 58.00px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-halloween_pumpkin_08 img {
+	position: absolute;
+	max-width: none;
+	width: 125.5626%;
+	height: 100.9857%;
+	left: -4.5905%;
+	top: -0.8961%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_08 {
+	width: 35.84px;
+	height: 36.00px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_08 {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-halloween_pumpkin_08 img {
+	position: absolute;
+	max-width: none;
+	width: 125.5626%;
+	height: 100.9857%;
+	left: -4.5905%;
+	top: -0.8961%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-xmas_mini {
+	width: 50.00px;
+	height: 50.00px;
+	margin-left: -18px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-xmas_mini {
+	margin-left: 0;
+	margin-right: -18px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-xmas_mini img {
+	position: absolute;
+	max-width: none;
+	width: 100.0000%;
+	height: 100.0000%;
+	left: 0.0000%;
+	top: 0.0000%;
+}
+
+/* Easter, St. Patrick’s Day and the compact Christmas ribbon corner. */
+
+#holiday-flare-corner.holiday-flare-easter_bunny_bouquet_corner {
+	width: 108.00px;
+	height: 90.50px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-easter_bunny_bouquet_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_bouquet_corner img {
+	position: absolute;
+	max-width: none;
+	width: 101.1782%;
+	height: 100.6151%;
+	left: -1.0309%;
+	top: -0.1757%;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_garden_corner {
+	width: 108.00px;
+	height: 89.68px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-easter_bunny_garden_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_garden_corner img {
+	position: absolute;
+	max-width: none;
+	width: 102.0649%;
+	height: 100.8881%;
+	left: -1.1062%;
+	top: -0.7105%;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_floral_corner {
+	width: 108.00px;
+	height: 71.38px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-easter_bunny_floral_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_floral_corner img {
+	position: absolute;
+	max-width: none;
+	width: 101.9244%;
+	height: 102.8112%;
+	left: -0.9290%;
+	top: -1.5060%;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_spring_corner {
+	width: 108.00px;
+	height: 71.00px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-easter_bunny_spring_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-easter_bunny_spring_corner img {
+	position: absolute;
+	max-width: none;
+	width: 101.3861%;
+	height: 102.8112%;
+	left: -0.6601%;
+	top: -1.3052%;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_pastel_bow_garland {
+	width: 230.00px;
+	height: 73.17px;
+	max-width: none;
+	top: -24px;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_pastel_bow_garland img {
+	position: absolute;
+	max-width: none;
+	width: 102.2118%;
+	height: 107.1006%;
+	left: -1.0824%;
+	top: -3.4024%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_pastel_bow_garland {
+	width: 230.00px;
+	height: 73.17px;
+	max-width: none;
+	bottom: -24px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_pastel_bow_garland img {
+	position: absolute;
+	max-width: none;
+	width: 102.2118%;
+	height: 107.1006%;
+	left: -1.0824%;
+	top: -3.4024%;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_spring_garland {
+	width: 230.00px;
+	height: 117.43px;
+	max-width: none;
+	top: -24px;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_spring_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.4531%;
+	height: 132.4709%;
+	left: -0.7266%;
+	top: -18.4994%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_spring_garland {
+	width: 230.00px;
+	height: 117.43px;
+	max-width: none;
+	bottom: -24px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_spring_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.4531%;
+	height: 132.4709%;
+	left: -0.7266%;
+	top: -18.4994%;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_gingham_garland {
+	width: 230.00px;
+	height: 74.19px;
+	max-width: none;
+	top: -24px;
+}
+
+#holiday-flare-center-top.holiday-flare-easter_gingham_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.5428%;
+	height: 104.9275%;
+	left: -0.8415%;
+	top: -2.4638%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_gingham_garland {
+	width: 230.00px;
+	height: 74.19px;
+	max-width: none;
+	bottom: -24px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-easter_gingham_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.5428%;
+	height: 104.9275%;
+	left: -0.8415%;
+	top: -2.4638%;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_hat_corner {
+	width: 108.00px;
+	height: 71.35px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-stpatrick_hat_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_hat_corner img {
+	position: absolute;
+	max-width: none;
+	width: 103.4343%;
+	height: 104.3833%;
+	left: -1.2795%;
+	top: -1.9368%;
+}
+
+#holiday-flare-center-top.holiday-flare-stpatrick_hat_garland {
+	width: 230.00px;
+	height: 61.06px;
+	max-width: none;
+	top: -24px;
+}
+
+#holiday-flare-center-top.holiday-flare-stpatrick_hat_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.8762%;
+	height: 127.9152%;
+	left: -0.9381%;
+	top: -15.5477%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-stpatrick_hat_garland {
+	width: 230.00px;
+	height: 61.06px;
+	max-width: none;
+	bottom: -24px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-stpatrick_hat_garland img {
+	position: absolute;
+	max-width: none;
+	width: 101.8762%;
+	height: 127.9152%;
+	left: -0.9381%;
+	top: -15.5477%;
+}
+
+#holiday-flare-center-top.holiday-flare-stpatrick_clover_garland {
+	width: 230.00px;
+	height: 62.34px;
+	max-width: none;
+	top: -24px;
+}
+
+#holiday-flare-center-top.holiday-flare-stpatrick_clover_garland img {
+	position: absolute;
+	max-width: none;
+	width: 102.7436%;
+	height: 126.3525%;
+	left: -1.6083%;
+	top: -15.7068%;
+}
+
+#holiday-flare-center-bottom.holiday-flare-stpatrick_clover_garland {
+	width: 230.00px;
+	height: 62.34px;
+	max-width: none;
+	bottom: -24px;
+}
+
+#holiday-flare-center-bottom.holiday-flare-stpatrick_clover_garland img {
+	position: absolute;
+	max-width: none;
+	width: 102.7436%;
+	height: 126.3525%;
+	left: -1.6083%;
+	top: -15.7068%;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_clover_corner {
+	width: 108.00px;
+	height: 77.81px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-stpatrick_clover_corner {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_clover_corner img {
+	position: absolute;
+	max-width: none;
+	width: 112.6926%;
+	height: 104.2770%;
+	left: -1.5407%;
+	top: -3.0550%;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_clover {
+	width: 60.00px;
+	height: 55.05px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-stpatrick_clover {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-stpatrick_clover img {
+	position: absolute;
+	max-width: none;
+	width: 126.8817%;
+	height: 108.4961%;
+	left: -14.7849%;
+	top: -2.3438%;
+}
+
+#holiday-flare-center.holiday-flare-stpatrick_clover {
+	width: 56.00px;
+	height: 51.38px;
+	max-width: none;
+}
+
+#holiday-flare-center.holiday-flare-stpatrick_clover img {
+	position: absolute;
+	max-width: none;
+	width: 126.8817%;
+	height: 108.4961%;
+	left: -14.7849%;
+	top: -2.3438%;
+}
+
+.holiday-flare-forum.holiday-flare-forum-stpatrick_clover {
+	width: 34.00px;
+	height: 31.20px;
+	margin-left: -26px;
+	margin-top: -4px;
+}
+
+.rtl .holiday-flare-forum.holiday-flare-forum-stpatrick_clover {
+	margin-left: 0;
+	margin-right: -26px;
+}
+
+.holiday-flare-forum.holiday-flare-forum-stpatrick_clover img {
+	position: absolute;
+	max-width: none;
+	width: 126.8817%;
+	height: 108.4961%;
+	left: -14.7849%;
+	top: -2.3438%;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_garland {
+	width: 112.00px;
+	height: 55.18px;
+	top: -16px;
+	left: -28px;
+}
+
+.rtl #holiday-flare-corner.holiday-flare-christmas_garland {
+	left: auto;
+	right: -28px;
+}
+
+#holiday-flare-corner.holiday-flare-christmas_garland img {
+	position: absolute;
+	max-width: none;
+	width: 102.4000%;
+	height: 138.5656%;
+	left: -1.1333%;
+	top: -16.1028%;
+}

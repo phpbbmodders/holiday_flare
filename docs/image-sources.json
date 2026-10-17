@@ -1,0 +1,178 @@
+[
+  {
+    "source": "Midnight New Year Celebration Emblem.png",
+    "file": "newyear-midnight.png",
+    "suggested_placement": "header-center"
+  },
+  {
+    "source": "Patriotic Red, White, and Blue Firework Burst.png",
+    "file": "patriotic-fireworks.png",
+    "suggested_placement": "header-center"
+  },
+  {
+    "source": "Whimsical Glowing Autumn Jack-o’-Lantern.png",
+    "file": "halloween-autumn-pumpkin.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "Whimsical Glowing Jack-o’-Lantern Sticker.png",
+    "file": "halloween-glowing-pumpkin.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "christmas_imag_would_ovrlay_ovr_a_phpbb_forum_bannr_on_th_to(1).jpg",
+    "file": "christmas-ornament-corner.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "christmas_imag_would_ovrlay_ovr_a_phpbb_forum_bannr_on_th_to(2).jpg",
+    "file": "christmas-evergreen-corner.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "christmas_imag_would_ovrlay_ovr_a_phpbb_forum_bannr_on_th_to(3).jpg",
+    "file": "christmas-santa-ornaments.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "christmas_imag_would_ovrlay_ovr_a_phpbb_forum_bannr_on_th_to.jpg",
+    "file": "christmas-bells-corner.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_mischvious_imag_would_ovrlay_ovr_a_phpbb_foru(1).jpg",
+    "file": "halloween-pumpkin-01.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_mischvious_imag_would_ovrlay_ovr_a_phpbb_foru(2).jpg",
+    "file": "halloween-pumpkin-02.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_mischvious_imag_would_ovrlay_ovr_a_phpbb_foru(3).jpg",
+    "file": "halloween-pumpkin-03.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_mischvious_imag_would_ovrlay_ovr_a_phpbb_foru.jpg",
+    "file": "halloween-pumpkin-04.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_whimsiclly_mischvious_imag_would_ovrlay_ovr_a(1).jpg",
+    "file": "halloween-pumpkin-05.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_whimsiclly_mischvious_imag_would_ovrlay_ovr_a(2).jpg",
+    "file": "halloween-pumpkin-06.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_whimsiclly_mischvious_imag_would_ovrlay_ovr_a(3).jpg",
+    "file": "halloween-pumpkin-07.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "hallown_pumkin_whimsiclly_mischvious_imag_would_ovrlay_ovr_a.jpg",
+    "file": "halloween-pumpkin-08.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "Festive Evergreen Garland with Red Bow.png",
+    "file": "christmas-garland.png",
+    "suggested_placement": "logo-corner"
+  },
+  {
+    "source": "Bunny’s Easter Corner Bouquet.png",
+    "file": "easter-bunny-bouquet-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "Bunny’s Easter Garden Corner.png",
+    "file": "easter-bunny-garden-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "Easter Bunny Floral Garland.png",
+    "file": "easter-bunny-floral-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "Easter Bunny Spring Corner Bouquet.png",
+    "file": "easter-bunny-spring-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "Pastel Easter Floral Garland with Bow.png",
+    "file": "easter-pastel-bow-garland.png",
+    "placements": [
+      "center_top",
+      "center_bottom"
+    ]
+  },
+  {
+    "source": "Spring Easter Floral Garland.png",
+    "file": "easter-spring-garland.png",
+    "placements": [
+      "center_top",
+      "center_bottom"
+    ]
+  },
+  {
+    "source": "Spring Easter Floral Garland with Gingham Bow.png",
+    "file": "easter-gingham-garland.png",
+    "placements": [
+      "center_top",
+      "center_bottom"
+    ]
+  },
+  {
+    "source": "St. Patrick’s Day Clover Hat Garland.png",
+    "file": "stpatrick-hat-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "St. Patrick’s Day Clover Garland.png",
+    "file": "stpatrick-hat-garland.png",
+    "placements": [
+      "center_top",
+      "center_bottom"
+    ]
+  },
+  {
+    "source": "St. Patrick’s Day Clover Garland-withouthat.png",
+    "file": "stpatrick-clover-garland.png",
+    "placements": [
+      "center_top",
+      "center_bottom"
+    ]
+  },
+  {
+    "source": "St. Patrick’s Clover Corner Flourish.png",
+    "file": "stpatrick-clover-corner.png",
+    "placements": [
+      "corner"
+    ]
+  },
+  {
+    "source": "Realistic Four-Leaf Clover Cutout.png",
+    "file": "stpatrick-clover.png",
+    "placements": [
+      "corner",
+      "center",
+      "forum"
+    ]
+  }
+]

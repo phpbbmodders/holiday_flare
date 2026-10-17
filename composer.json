@@ -1,7 +1,7 @@
 {
 	"name": "phpbbmodders/holidayflare",
 	"type": "phpbb-extension",
-	"description": "Adds seasonal decorations — Christmas, Valentine's Day and New Year — that you switch on from the ACP.",
+	"description": "Adds independently selectable holiday artwork to the header and forum list from the ACP.",
 	"homepage": "https://www.phpbbmodders.com/",
 	"version": "2.1.0",
 	"keywords": [

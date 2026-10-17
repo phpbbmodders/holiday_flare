@@ -2,18 +2,27 @@
 
 [![Tests](https://github.com/phpbbmodders/holiday_flare/actions/workflows/tests.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/tests.yml) [![Lint](https://github.com/phpbbmodders/holiday_flare/actions/workflows/lint.yml/badge.svg)](https://github.com/phpbbmodders/holiday_flare/actions/workflows/lint.yml)
 
-Adds seasonal decorations — Christmas, Valentine's Day and New Year — that you switch on from the ACP.
+Adds selectable holiday decorations to the left corner, header top, header bottom, header center and forum list.
 
 ## Features
 
-- Each holiday theme can be switched on or off on its own.
-- Christmas: a Santa hat in the header corner, plus a smaller matching icon on the forum list.
-- Valentine's Day: a matching header-corner icon.
-- New Year: a 96 × 96 header icon.
-- When several themes are enabled, Christmas takes priority, followed by Valentine and New Year.
+- Browse image dropdowns grouped by holiday: one image per placement across all holidays, or None.
+- Show different holidays together in different placements.
+- Each image is offered only in suitable positions, with individually fitted sizes and offsets.
+  See the [artwork placement guide](docs/image-placement-guide.md).
+- Includes Christmas, Valentine, New Year, Halloween, Independence Day, Easter and St. Patrick’s Day artwork.
+- Select Christmas hats or pumpkin variants independently for the forum list.
+- Decorations hide on screens 700 pixels wide or smaller.
+- Existing theme selections carry over during upgrade, preserving the previously visible theme.
 - Supported styles: prosilver, Green-Style-Slim, pro_ubuntu_lucid and proflat.
 
-See [docs/screenshots](docs/screenshots) for both themes.
+## Screenshots
+
+[<img src="docs/images/screenshots/placement-desktop.png" width="640" height="400" alt="Easter header decorations and independent clover forum icons" />](docs/images/screenshots/placement-desktop.png)
+
+[<img src="docs/images/screenshots/placement-settings.png" width="640" height="400" alt="Holiday-grouped dropdowns" />](docs/images/screenshots/placement-settings.png)
+
+[View the screenshot gallery](docs/images/screenshots/README.md).
 
 ## Requirements
 
@@ -25,7 +34,7 @@ See [docs/screenshots](docs/screenshots) for both themes.
 1. Copy the extension to `/ext/phpbbmodders/holidayflare`
 2. In the Administration Control Panel, go to **Customise → Manage extensions**
 3. Enable the **Holiday Flare** extension
-4. Under **ACP → Extensions → Holiday Flare → Settings**, set *Christmas Theme*, *Valentine Theme* or *New Year Theme* to *Yes*
+4. Under **ACP → Extensions → Holiday Flare → Settings**, browse the holiday groups and choose images from the dropdowns for *Left corner*, *Center top*, *Center bottom*, *Center* and *Forum-list icons*, then submit
 
 ## Contributing
 
@@ -42,6 +51,7 @@ Contributions are welcome!
 - The jQuery-based header banner was originally contributed by Rich McGirr ([rmcgirr83](https://github.com/rmcgirr83)), extended to additional styles by Raphaël M. ([Galixte](https://github.com/Galixte)).
 - French translation by Raphaël M. ([Galixte](https://github.com/Galixte)); Arabic translation by Basil Taha Alhitary.
 - Modernization (current PHP/phpBB version support, a real bug fix confirmed against a live phpBB install, reconciling several long-open pull requests, and this documentation) assisted by [Claude](https://www.anthropic.com/claude).
+- Decoration selectors, image preparation and validation assisted by [Codex](https://www.anthropic.com/Codex).
 
 ## License
 

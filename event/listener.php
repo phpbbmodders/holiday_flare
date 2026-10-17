@@ -62,10 +62,20 @@ class listener implements EventSubscriberInterface
 	*/
 	public function get_holiday_config()
 	{
+		$active = false;
+		foreach (\phpbbmodders\holidayflare\decoration_catalog::positions() as $position)
+		{
+			$items = \phpbbmodders\holidayflare\decoration_catalog::for_position($position);
+			$id = isset($this->config['holidayflare_' . $position]) ? $this->config['holidayflare_' . $position] : '';
+			if ($id !== '' && \phpbbmodders\holidayflare\decoration_catalog::valid($position, $id))
+			{
+				$this->template->assign_var('HOLIDAY_' . strtoupper($position) . '_IMAGE', $items[$id]['image']);
+				$this->template->assign_var('HOLIDAY_' . strtoupper($position) . '_VARIANT', $id);
+				$active = true;
+			}
+		}
 		$this->template->assign_vars(array(
-			'S_ENABLE_XMAS'		=> $this->config['enable_xmas'],
-			'S_ENABLE_VALENTINE'	=> $this->config['enable_valentine'],
-			'S_ENABLE_NEWYEAR'	=> $this->config['enable_newyear'],
+			'S_HOLIDAY_ACTIVE' => $active,
 		));
 	}
 }
