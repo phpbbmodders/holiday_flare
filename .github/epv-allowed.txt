@@ -1,0 +1,7 @@
+# EPV findings this extension keeps on purpose, checked by the epv job in
+# .github/workflows/tests.yml. One finding per line as EPV prints it, without
+# "on line N", with paths relative to the extension; give the reason above it.
+
+# A command-line check for developers (php tools/check-decoration-catalog.php),
+# not part of the running extension; it prints its result with echo.
+Error: The template system should be used instead of echo or print in /tools/check-decoration-catalog.php
