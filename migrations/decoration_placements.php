@@ -8,7 +8,7 @@ namespace phpbbmodders\holidayflare\migrations;
 
 class decoration_placements extends \phpbb\db\migration\migration
 {
-	static public function depends_on()
+	public static function depends_on()
 	{
 		return array('\phpbbmodders\holidayflare\migrations\newyear_theme');
 	}

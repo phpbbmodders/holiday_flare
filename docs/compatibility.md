@@ -14,7 +14,7 @@ Runtime checks on 10/17/2026 used SQLite and bundled Prosilver:
 The tested 4.0 snapshot was phpbb/phpbb master commit
 `3bf509005826eae27524188e5540543ebdcd5266`, served through PHP 8.4-FPM.
 These results do not verify future 4.0 snapshots or other style layouts.
-CI currently targets phpBB 3.3.x.
+CI runs the code sniffer and EPV against phpBB 3.3.x and master.
 
 On phpBB 4.0’s bundled Prosilver, the header begins at the viewport edge.
 Artwork extending above the header in the center-top position can be clipped.

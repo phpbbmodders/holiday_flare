@@ -51,9 +51,26 @@ jobs:
       # List the PHP versions you want your extension tested with.
       PHP_VERSION_MATRIX: '["8.2", "8.3", "8.4"]'
 
+  # phpBB 4.0 (master): the same tests with the framework's master branch
+  call-tests-master:
+    name: Extension tests (phpBB master / 4.0)
+    uses: phpbb-extensions/test-framework/.github/workflows/tests.yml@master
+    with:
+      EXTNAME: phpbbmodders/holidayflare
+      # EPV runs in the epv job below instead
+      EPV: 0
+      PHPBB_BRANCH: 'master'
+      RUN_MYSQL_JOBS: 0
+      RUN_PGSQL_JOBS: 0
+      RUN_MSSQL_JOBS: 0
+      RUN_WINDOWS_JOBS: 0
+      PRIMARY_PHP_VERSION: '8.2'
+      PHP_VERSION_MATRIX: '["8.2", "8.3", "8.4"]'
+
   # EPV (Extension Pre Validator), failing on any Fatal or Error finding not
   # listed in .github/epv-allowed.txt
   epv:
     uses: phpbbmodders/.github/.github/workflows/epv.yml@v1
     with:
       EXTNAME: phpbbmodders/holidayflare
+      PHPBB_BRANCHES: '["3.3.x", "master"]'
