@@ -34,8 +34,15 @@ Full ACP settings: seven holiday groups and five independent placements.
 
 ## Requirements
 
-- phpBB 3.3.19 or later
-- PHP 7.4 or later
+- phpBB 3.3.19 or later within 3.3, or phpBB 4.0
+- PHP 7.4 or later for phpBB 3.3; PHP 8.2 or later for phpBB 4.0
+
+Runtime checks passed on phpBB 3.3.19 and phpBB 4.0.0-a3-dev with
+Prosilver. See [compatibility testing](docs/compatibility.md) for the tested
+snapshot and lifecycle notes.
+
+See [accessibility behavior](docs/accessibility.md) for decorative artwork,
+keyboard controls and selection-change announcements.
 
 ## Installation
 
@@ -49,7 +56,7 @@ Full ACP settings: seven holiday groups and five independent placements.
 Contributions are welcome!
 
 - **Bug reports**: [Open an issue](https://github.com/phpbbmodders/holiday_flare/issues).
-- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/orgs/phpbbmodders/discussions), or the [community forum](https://www.phpbbmodders.com/community/). The [phpBB.com support thread](https://www.phpbb.com/community/viewtopic.php?f=456&t=2277491) is still open too.
+- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/orgs/phpbbmodders/discussions), the [community forum](https://www.phpbbmodders.com/community/), or [Discord](https://discord.gg/CJab3Asm8z). The [phpBB.com support thread](https://www.phpbb.com/community/viewtopic.php?f=456&t=2277491) is still open too.
 - Pull requests are welcome for bug fixes or discussed features.
 
 ## Acknowledgments

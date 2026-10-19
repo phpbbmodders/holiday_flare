@@ -38,7 +38,7 @@
 	"extra": {
 		"display-name": "Holiday Flare",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.3.19,<4.0.0@dev"
+			"phpbb/phpbb": ">=3.3.19,<4.1.0@dev"
 		},
 		"version-check": {
 			"host": "www.phpbb.com",

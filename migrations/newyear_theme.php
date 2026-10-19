@@ -8,7 +8,7 @@ namespace phpbbmodders\holidayflare\migrations;
 
 class newyear_theme extends \phpbb\db\migration\migration
 {
-	static public function depends_on()
+	public static function depends_on()
 	{
 		return array('\phpbbmodders\holidayflare\migrations\xmas_valentine_split');
 	}

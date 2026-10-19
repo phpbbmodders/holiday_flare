@@ -9,7 +9,7 @@ namespace phpbbmodders\holidayflare;
 class decoration_catalog
 {
 	/** Return the bundled image allowlist, keyed by stable selection IDs. */
-	static public function all()
+	public static function all()
 	{
 		return array(
 			'xmas' => array('image' => 'xmas.png', 'label' => 'HOLIDAY_VARIANT_XMAS', 'position' => 'corner', 'placements' => array('corner')),
@@ -48,19 +48,19 @@ class decoration_catalog
 	}
 
 	/** Holiday groups displayed in the ACP. */
-	static public function holidays()
+	public static function holidays()
 	{
 		return array('christmas', 'valentine', 'newyear', 'halloween', 'independence', 'easter', 'stpatrick');
 	}
 
 	/** Stable placement keys shared by the ACP, validation and renderer. */
-	static public function positions()
+	public static function positions()
 	{
 		return array('corner', 'center_top', 'center_bottom', 'center', 'forum');
 	}
 
 	/** Return the holiday group for a bundled decoration. */
-	static public function holiday($id)
+	public static function holiday($id)
 	{
 		if ($id === 'xmas' || $id === 'xmas_mini' || strpos($id, 'christmas_') === 0)
 		{
@@ -86,7 +86,7 @@ class decoration_catalog
 	}
 
 	/** Offer only artwork curated for the requested placement. */
-	static public function for_position($position)
+	public static function for_position($position)
 	{
 		$items = array();
 		if ($position === 'forum')
@@ -104,7 +104,7 @@ class decoration_catalog
 	}
 
 	/** Validate a selection for one placement; an empty ID means None. */
-	static public function valid($position, $id)
+	public static function valid($position, $id)
 	{
 		$items = self::for_position($position);
 		return in_array($position, self::positions(), true) && ($id === '' || isset($items[$id]));
