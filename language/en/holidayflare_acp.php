@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'HOLIDAY_POSITION_CENTER' => 'Center',
 	'HOLIDAY_NONE' => 'None',
 	'HOLIDAY_INVALID_SELECTION' => 'Choose only one valid image per placement across all holidays.',
+	'HOLIDAY_SELECTION_CLEARED' => '%1$s — %2$s cleared because another holiday now uses this placement.',
 	'HOLIDAY_VARIANT_XMAS' => 'Christmas — original Santa hat',
 	'HOLIDAY_VARIANT_VALENTINE' => 'Valentine — original heart',
 	'HOLIDAY_VARIANT_NEWYEAR' => 'New Year — original greeting',

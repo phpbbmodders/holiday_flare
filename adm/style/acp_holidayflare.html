@@ -1,9 +1,11 @@
 <!-- INCLUDE overall_header.html -->
 <!-- INCLUDEJS @phpbbmodders_holidayflare/acp.js -->
+<!-- INCLUDECSS @phpbbmodders_holidayflare/acp.css -->
 
 <h1>{L_ACP_HOLIDAYFLARE}</h1>
 
-<p>{L_ACP_HOLIDAYFLARE_EXPLAIN}</p>
+<p id="holidayflare-explain">{L_ACP_HOLIDAYFLARE_EXPLAIN}</p>
+<p id="holidayflare-status" role="status" aria-atomic="true" data-cleared-message="{{ lang('HOLIDAY_SELECTION_CLEARED')|e('html_attr') }}"></p>
 
 <form id="select_victim" method="post" action="{U_ACTION}">
 
@@ -14,7 +16,7 @@
 		<dl>
 			<dt><label for="holidayflare_{holidays.ID}_{holidays.placements.ID}">{holidays.placements.LABEL}{L_COLON}</label></dt>
 			<dd>
-				<select class="holiday-select" data-placement="{holidays.placements.ID}" name="holidayflare_{holidays.ID}_{holidays.placements.ID}" id="holidayflare_{holidays.ID}_{holidays.placements.ID}">
+				<select aria-describedby="holidayflare-explain" class="holiday-select" data-placement="{holidays.placements.ID}" name="holidayflare_{holidays.ID}_{holidays.placements.ID}" id="holidayflare_{holidays.ID}_{holidays.placements.ID}">
 					<option value="">{L_HOLIDAY_NONE}</option>
 					<!-- BEGIN options -->
 					<option value="{holidays.placements.options.ID}"<!-- IF holidays.placements.options.S_SELECTED --> selected="selected"<!-- ENDIF -->>{holidays.placements.options.LABEL}</option>
