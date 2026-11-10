@@ -35,7 +35,7 @@ Full ACP settings: seven holiday groups and five independent placements.
 ## Requirements
 
 - phpBB 3.3.19 or later within 3.3, or phpBB 4.0
-- PHP 7.4 or later for phpBB 3.3; PHP 8.2 or later for phpBB 4.0
+- PHP 8.1 or later (phpBB 4.0 itself needs PHP 8.2 or later)
 
 Runtime checks passed on phpBB 3.3.19 and phpBB 4.0.0-a3-dev with
 Prosilver. See [compatibility testing](docs/compatibility.md) for the tested
